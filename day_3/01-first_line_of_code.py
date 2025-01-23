@@ -1,0 +1,11 @@
+print ("Jawad")
+print ("I am starting my second day of python")
+print ("date")
+print ("02.01.2025")
+num=45
+print (num)
+print(num+5)
+print(num-5)
+print (2*3)
+print (5/2*6+7)
+print (5/2*6+7)
