@@ -11,4 +11,4 @@ elif oper == "*":
 elif oper == "/":
     print(first / second)
 else:
-    print("Invalid operation")  # This will print if the user enters something other than +,
+    print("Invalid operation")
