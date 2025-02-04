@@ -1,0 +1,12 @@
+number = []
+n1 = int (input(" Enter the number :"))
+n2 = int (input(" Enter the number :"))
+n3 = int (input(" Enter the number :"))
+number.append(n1)
+number.append(n2)
+number.append(n3)
+print(" Original number:",number)
+total = sum(number)
+print(" Sum of the number:",total)
+max_number = max(number)
+print(" Maximum number:",max_number)
