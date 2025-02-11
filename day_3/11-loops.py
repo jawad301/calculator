@@ -9,8 +9,8 @@
     
 #for loop
 
-# for x in range (4,11) :
-#        print (x)
+for x in range (4,11) :
+       print (x)
  
  
 # array
@@ -18,6 +18,6 @@
 days = [ "Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
   
 for d in days:
-#    if (d=="Fri"):break #loop stops
+   if (d=="Fri"):break #loop stops
    if (d=="Fri"):continue #skips fri d
    print(d)  
