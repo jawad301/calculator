@@ -1,7 +1,6 @@
-temp = int(input("Enter temp in Celsius: "))
-if temp <=15:
-    print("It's cold outside.")
-elif temp <=30:
-    print("It's warm outside.")
-else :
-    print("It's nice outside.")
+x = [1,2,3,4,5,6,7,8,9]
+for i in range (1,10) :
+    if i == 7:
+        break
+    print ("This number is = ", i)
+print ("This is the end of the loop")
