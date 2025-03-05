@@ -1,15 +1,14 @@
-class person :
-    
-    def __init__(self,n,occ):
-        
-        self.name = n
-        self.occupation = occ
-        
-    def info (self) :
-        print (f"{self.name} is a {self.occupation}") 
-        
-        
-a = person("Jawad","HR")
-b = person("Ali","Dveloper")
-a.info ()
-b.info ()
+class Employee:
+    def __init__(self,name,id):
+        self.name = name 
+        self.id = id 
+    def showDetails(self) :
+        print (f"The name of Employee is: {self.name} and his ID is : {self.id}")
+class programer (Employee) :
+    def showLanguage (self) :
+        print ("The default language is PYTHON")      
+e = Employee("tomy","408")
+e.showDetails()
+e1 = programer ("jon","410")
+e1.showDetails ()
+e1.showLanguage ()
